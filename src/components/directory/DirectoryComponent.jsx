@@ -8,33 +8,33 @@ class Directory extends React.Component {
 
         this.state={
             sections:[{
-                title: 'hats',
-                imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+                title: 'Vegetable Section',
+                imageUrl: 'https://images.pexels.com/photos/2751755/pexels-photo-2751755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
                 id: 1,
                 linkUrl: 'shop/hats'
               },
               {
-                title: 'jackets',
-                imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+                title: 'Meat',
+                imageUrl: 'https://images.pexels.com/photos/5774154/pexels-photo-5774154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
                 id: 2,
                 linkUrl: 'shop/jackets'
               },
               {
-                title: 'sneakers',
-                imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+                title: 'Beverage',
+                imageUrl: 'https://images.pexels.com/photos/452737/pexels-photo-452737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
                 id: 3,
                 linkUrl: 'shop/sneakers'
               },
               {
-                title: 'womens',
-                imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+                title: 'Breads',
+                imageUrl: 'https://images.pexels.com/photos/2227775/pexels-photo-2227775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
                 size: 'large',
                 id: 4,
                 linkUrl: 'shop/womens'
               },
               {
-                title: 'mens',
-                imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+                title: 'Dairy',
+                imageUrl: 'https://media.istockphoto.com/photos/various-fresh-dairy-products-picture-id544807136',
                 size: 'large',
                 id: 5,
                 linkUrl: 'shop/mens'

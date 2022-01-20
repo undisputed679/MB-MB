@@ -1,31 +1,31 @@
 const SHOP_DATA = [
     {
       id: 1,
-      title: 'Hats',
+      title: 'Vegetables',
       routeName: 'hats',
       items: [
         {
           id: 1,
-          name: 'Brown Brim',
-          imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-          price: 25
+          name: 'Broccoli',
+          imageUrl: 'https://media.istockphoto.com/photos/broccoli-picture-id579165978',
+          price: 25 
         },
         {
           id: 2,
-          name: 'Blue Beanie',
-          imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+          name: 'Tomatoes',
+          imageUrl: 'https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
           price: 18
         },
         {
           id: 3,
-          name: 'Brown Cowboy',
-          imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+          name: 'Potato',
+          imageUrl: 'https://images.pexels.com/photos/7129145/pexels-photo-7129145.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
           price: 35
         },
         {
           id: 4,
-          name: 'Grey Brim',
-          imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+          name: 'Cabbage',
+          imageUrl: 'https://images.pexels.com/photos/2518893/pexels-photo-2518893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
           price: 25
         },
         {
@@ -62,31 +62,31 @@ const SHOP_DATA = [
     },
     {
       id: 2,
-      title: 'Sneakers',
+      title: 'Non-veg',
       routeName: 'sneakers',
       items: [
         {
           id: 10,
-          name: 'Adidas NMD',
-          imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
+          name: 'Chicken',
+          imageUrl: 'https://images.pexels.com/photos/2446695/pexels-photo-2446695.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
           price: 220
         },
         {
           id: 11,
-          name: 'Adidas Yeezy',
-          imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
+          name: 'Eggs',
+          imageUrl: 'https://images.pexels.com/photos/4207651/pexels-photo-4207651.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
           price: 280
         },
         {
           id: 12,
-          name: 'Black Converse',
-          imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
+          name: 'Fish',
+          imageUrl: 'https://images.pexels.com/photos/2602493/pexels-photo-2602493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
           price: 110
         },
         {
           id: 13,
-          name: 'Nike White AirForce',
-          imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
+          name: 'Shrimps',
+          imageUrl: 'https://images.pexels.com/photos/566344/pexels-photo-566344.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
           price: 160
         },
         {
@@ -117,31 +117,31 @@ const SHOP_DATA = [
     },
     {
       id: 3,
-      title: 'Jackets',
+      title: 'Dairy',
       routeName: 'jackets',
       items: [
         {
           id: 18,
-          name: 'Black Jean Shearling',
-          imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
+          name: 'Milk',
+          imageUrl: 'https://images.pexels.com/photos/5946717/pexels-photo-5946717.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
           price: 125
         },
         {
           id: 19,
-          name: 'Blue Jean Jacket',
-          imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
+          name: 'Cheese',
+          imageUrl: 'https://images.pexels.com/photos/3758131/pexels-photo-3758131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
           price: 90
         },
         {
           id: 20,
-          name: 'Grey Jean Jacket',
-          imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
+          name: 'Yoghurt',
+          imageUrl: 'https://images.pexels.com/photos/5946056/pexels-photo-5946056.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
           price: 90
         },
         {
           id: 21,
-          name: 'Brown Shearling',
-          imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
+          name: 'Butter',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/%C5%A0v%C3%A9dsk%C3%BD_kol%C3%A1%C4%8D_naruby_904_%28cropped%29.JPG/1200px-%C5%A0v%C3%A9dsk%C3%BD_kol%C3%A1%C4%8D_naruby_904_%28cropped%29.JPG',
           price: 165
         },
         {
@@ -154,31 +154,31 @@ const SHOP_DATA = [
     },
     {
       id: 4,
-      title: 'Womens',
+      title: 'Beverage',
       routeName: 'womens',
       items: [
         {
           id: 23,
-          name: 'Blue Tanktop',
-          imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+          name: 'coke',
+          imageUrl: 'https://images.pexels.com/photos/2668308/pexels-photo-2668308.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
           price: 25
         },
         {
           id: 24,
-          name: 'Floral Blouse',
-          imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
+          name: 'maaza',
+          imageUrl: 'https://www.jiomart.com/images/product/original/490001795/maaza-mango-drink-1-2-l-bottle-0-20210923.jpg',
           price: 20
         },
         {
           id: 25,
-          name: 'Floral Dress',
-          imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
+          name: 'Monster',
+          imageUrl: 'https://images.pexels.com/photos/8269360/pexels-photo-8269360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
           price: 80
         },
         {
           id: 26,
-          name: 'Red Dots Dress',
-          imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
+          name: 'Fruit juice',
+          imageUrl: 'https://www.dabur.com/img/product/large/25-real-juice.jpg',
           price: 80
         },
         {
@@ -203,31 +203,31 @@ const SHOP_DATA = [
     },
     {
       id: 5,
-      title: 'Mens',
+      title: 'Breads',
       routeName: 'mens',
       items: [
         {
           id: 30,
-          name: 'Camo Down Vest',
-          imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
+          name: 'White bread',
+          imageUrl: 'https://images.pexels.com/photos/8599586/pexels-photo-8599586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
           price: 325
         },
         {
           id: 31,
-          name: 'Floral T-shirt',
-          imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
+          name: 'Brown Bread',
+          imageUrl: 'https://images.pexels.com/photos/5419309/pexels-photo-5419309.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
           price: 20
         },
         {
           id: 32,
-          name: 'Black & White Longsleeve',
-          imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
+          name: 'Peta bread',
+          imageUrl: 'https://images.pexels.com/photos/4495757/pexels-photo-4495757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
           price: 25
         },
         {
           id: 33,
-          name: 'Pink T-shirt',
-          imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+          name: 'MultiGrain Bread',
+          imageUrl: 'https://images.pexels.com/photos/5966346/pexels-photo-5966346.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
           price: 25
         },
         {
