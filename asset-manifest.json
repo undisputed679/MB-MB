@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MB-and-MB/static/css/main.4efe7a47.chunk.css",
+    "main.js": "/MB-and-MB/static/js/main.c202aecc.chunk.js",
+    "main.js.map": "/MB-and-MB/static/js/main.c202aecc.chunk.js.map",
+    "runtime-main.js": "/MB-and-MB/static/js/runtime-main.9a1540e5.js",
+    "runtime-main.js.map": "/MB-and-MB/static/js/runtime-main.9a1540e5.js.map",
+    "static/js/2.f6b8299d.chunk.js": "/MB-and-MB/static/js/2.f6b8299d.chunk.js",
+    "static/js/2.f6b8299d.chunk.js.map": "/MB-and-MB/static/js/2.f6b8299d.chunk.js.map",
+    "index.html": "/MB-and-MB/index.html",
+    "static/css/main.4efe7a47.chunk.css.map": "/MB-and-MB/static/css/main.4efe7a47.chunk.css.map",
+    "static/js/2.f6b8299d.chunk.js.LICENSE.txt": "/MB-and-MB/static/js/2.f6b8299d.chunk.js.LICENSE.txt",
+    "static/media/crown.3a4e2b15.svg": "/MB-and-MB/static/media/crown.3a4e2b15.svg",
+    "static/media/shopping-bag.a688874f.svg": "/MB-and-MB/static/media/shopping-bag.a688874f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a1540e5.js",
+    "static/js/2.f6b8299d.chunk.js",
+    "static/css/main.4efe7a47.chunk.css",
+    "static/js/main.c202aecc.chunk.js"
+  ]
+}
