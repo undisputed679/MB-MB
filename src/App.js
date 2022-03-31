@@ -8,7 +8,9 @@ import ShopPages from './pages/shop/ShopPages';
 import Header from './components/Header/Header';
 import { SignInAndSignUP } from './pages/signpage/SigninAndSignup';
 import {auth,createUserProfileDocument} from './firebase/Firebase';
-
+import { selectCurrentUser } from './redux/user/user.selecter';
+import { createStructuredSelector } from 'reselect';
+import checkOutPage from './pages/checkout/checkout.component';
 
 class App extends React.Component {
   // constructor(){
@@ -54,16 +56,17 @@ class App extends React.Component {
           <Route exact path='/' component={Homepage}/>
           <Route exact path='/shop' component={ShopPages}/>
           <Route exact path='/signin' render={()=>this.props.currentUser ? (<Redirect to='/'/>):(<SignInAndSignUP/>)} />
+          <Route exact path='/checkout' component={checkOutPage}/>
         </Switch>
         </BrowserRouter>
-      </div>
+      </div> 
     );
   }
   
 }
 
-const mapStateToProps=({user}) =>({
-  currentUser:user.currentUser
+const mapStateToProps=createStructuredSelector({
+  currentUser:selectCurrentUser
 });
 
 
